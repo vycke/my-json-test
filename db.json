@@ -1,0 +1,90 @@
+{
+  "inspections": [
+    {
+      "id": "12345",
+      "type": "damage",
+      "status": "planned",
+      "address": "kerkstraat 5",
+      "postalCode": "1234AA",
+      "city": "amsterdam"
+    },
+    {
+      "id": "12346",
+      "type": "damage",
+      "status": "finished",
+      "address": "kerkstraat 5",
+      "postalCode": "1234AA",
+      "city": "amsterdam"
+    },
+    {
+      "id": "12347",
+      "type": "damage",
+      "status": "finished",
+      "address": "kerkstraat 5",
+      "postalCode": "1234AA",
+      "city": "amsterdam"
+    },
+    {
+      "id": "12348",
+      "type": "damage",
+      "status": "finished",
+      "address": "kerkstraat 5",
+      "postalCode": "1234AA",
+      "city": "amsterdam"
+    },
+    {
+      "id": "67890",
+      "type": "modification",
+      "status": "planned",
+      "address": "kerkstraat 10",
+      "postalCode": "1234AA",
+      "city": "amsterdam"
+    },
+    {
+      "id": "23456",
+      "type": "damage",
+      "status": "planned",
+      "address": "kerkstraat 15",
+      "postalCode": "1234AA",
+      "city": "amsterdam"
+    },
+    {
+      "id": "45678",
+      "type": "installation",
+      "status": "planned",
+      "address": "kerkstraat 20",
+      "postalCode": "1234AA",
+      "city": "amsterdam"
+    },
+    {
+      "id": "56789",
+      "type": "maintenance",
+      "status": "planned",
+      "address": "kerkstraat 25",
+      "postalCode": "1234AA",
+      "city": "amsterdam"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "damage",
+      "inspectionId": "12345"
+    },
+    {
+      "type": "damage",
+      "inspectionId": "12346"
+    },
+    {
+      "type": "damage",
+      "inspectionId": "12347"
+    },
+    {
+      "type": "damage",
+      "inspectionId": "12347"
+    },
+    {
+      "type": "damage",
+      "inspectionId": "12348"
+    }
+  ]
+}
