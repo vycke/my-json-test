@@ -68,23 +68,38 @@
   "objectives": [
     {
       "type": "damage",
-      "inspectionId": "12345"
+      "inspectionId": "12345",
+      "status": "open",
+      "location": "kitchen",
+      "description": "some lengthy description"
     },
     {
       "type": "damage",
-      "inspectionId": "12346"
+      "inspectionId": "12346",
+      "status": "open",
+      "location": "kitchen",
+      "description": "some lengthy description"
     },
     {
       "type": "damage",
-      "inspectionId": "12347"
+      "inspectionId": "12347",
+      "status": "open",
+      "location": "kitchen",
+      "description": "some lengthy description"
     },
     {
       "type": "damage",
-      "inspectionId": "12347"
+      "inspectionId": "12347",
+      "status": "open",
+      "location": "kitchen",
+      "description": "some lengthy description"
     },
     {
       "type": "damage",
-      "inspectionId": "12348"
+      "inspectionId": "12348",
+      "status": "open",
+      "location": "kitchen",
+      "description": "some lengthy description"
     }
   ]
 }
