@@ -67,44 +67,129 @@
   ],
   "objectives": [
     {
-      "id": "1",
+      "id": "5",
       "type": "damage",
       "inspectionId": "12345",
-      "status": "open",
-      "location": "kitchen",
-      "description": "some lengthy description"
+      "status": "closed",
+      "location": "Kitchen",
+      "description": "some lengthy description",
+      "executedBy": "huurder",
+      "action": "laten keuren",
+      "reportedSituation": "https://test.nl"
+    },
+    {
+      "id": "5",
+      "type": "damage",
+      "inspectionId": "67890",
+      "status": "closed",
+      "location": "Kitchen",
+      "description": "some lengthy description",
+      "executedBy": "huurder",
+      "action": "laten keuren",
+      "reportedSituation": "https://test.nl"
     },
     {
       "id": "2",
-      "type": "damage",
-      "inspectionId": "12346",
+      "type": "maintenance",
+      "inspectionId": "67890",
       "status": "open",
-      "location": "kitchen",
-      "description": "some lengthy description"
+      "location": "Garage",
+      "description": "some lengthy description",
+      "typeOfMaintenance": "schilderwerk",
+      "immediateActionRequired": false,
+      "costs": "500-1.500"
+    },
+    {
+      "id": "2",
+      "type": "maintenance",
+      "inspectionId": "12346",
+      "status": "closed",
+      "location": "Garage",
+      "description": "some lengthy description",
+      "typeOfMaintenance": "schilderwerk",
+      "immediateActionRequired": false,
+      "costs": "500-1.500"
     },
     {
       "id": "3",
-      "type": "damage",
+      "type": "installation",
       "inspectionId": "12347",
+      "status": "closed",
+      "location": "Living room",
+      "description": "some lengthy description",
+      "typeOfInstallation": "koeling",
+      "testProcedure": "https://test.nl",
+      "approved": true,
+      "reportedMalfuctions": "A/C broken"
+    },
+    {
+      "id": "3",
+      "type": "installation",
+      "inspectionId": "56789",
       "status": "open",
-      "location": "kitchen",
-      "description": "some lengthy description"
+      "location": "Living room",
+      "description": "some lengthy description",
+      "typeOfInstallation": "koeling",
+      "testProcedure": "https://test.nl",
+      "approved": true,
+      "reportedMalfuctions": "A/C broken"
     },
     {
       "id": "4",
       "type": "damage",
       "inspectionId": "12347",
+      "status": "closed",
+      "location": "Bathroom",
+      "description": "some lengthy description",
+      "typeOfDamage": "moedwillig",
+      "damageDate": "2024-09-01T00:00:00+00.00",
+      "newDamage": false,
+      "immediateActionRequired": true
+    },
+    {
+      "id": "4",
+      "type": "damage",
+      "inspectionId": "45678",
       "status": "open",
-      "location": "kitchen",
-      "description": "some lengthy description"
+      "location": "Bathroom",
+      "description": "some lengthy description",
+      "typeOfDamage": "moedwillig",
+      "damageDate": "2024-09-01T00:00:00+00.00",
+      "newDamage": false,
+      "immediateActionRequired": true
     },
     {
       "id": "5",
-      "type": "damage",
+      "type": "modification",
       "inspectionId": "12348",
+      "status": "closed",
+      "location": "Bedroom 1",
+      "description": "some lengthy description",
+      "executedBy": "huurder",
+      "action": "laten keuren",
+      "reportedSituation": "https://test.nl"
+    },
+    {
+      "id": "5",
+      "type": "modification",
+      "inspectionId": "67890",
       "status": "open",
-      "location": "kitchen",
-      "description": "some lengthy description"
+      "location": "Bedroom 1",
+      "description": "some lengthy description",
+      "executedBy": "huurder",
+      "action": "laten keuren",
+      "reportedSituation": "https://test.nl"
+    },
+    {
+      "id": "5",
+      "type": "modification",
+      "inspectionId": "23456",
+      "status": "open",
+      "location": "Bedroom 1",
+      "description": "some lengthy description",
+      "executedBy": "huurder",
+      "action": "laten keuren",
+      "reportedSituation": "https://test.nl"
     }
   ]
 }
