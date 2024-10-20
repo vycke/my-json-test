@@ -67,6 +67,7 @@
   ],
   "objectives": [
     {
+      "id": "1",
       "type": "damage",
       "inspectionId": "12345",
       "status": "open",
@@ -74,6 +75,7 @@
       "description": "some lengthy description"
     },
     {
+      "id": "2",
       "type": "damage",
       "inspectionId": "12346",
       "status": "open",
@@ -81,6 +83,7 @@
       "description": "some lengthy description"
     },
     {
+      "id": "3",
       "type": "damage",
       "inspectionId": "12347",
       "status": "open",
@@ -88,6 +91,7 @@
       "description": "some lengthy description"
     },
     {
+      "id": "4",
       "type": "damage",
       "inspectionId": "12347",
       "status": "open",
@@ -95,6 +99,7 @@
       "description": "some lengthy description"
     },
     {
+      "id": "5",
       "type": "damage",
       "inspectionId": "12348",
       "status": "open",
