@@ -70,8 +70,9 @@
       "id": "5",
       "type": "damage",
       "inspectionId": "12345",
-      "status": "closed",
+      "status": "open",
       "location": "Kitchen",
+      "typeOfDamage": "moedwillig",
       "description": "some lengthy description",
       "executedBy": "huurder",
       "action": "laten keuren",
@@ -81,8 +82,9 @@
       "id": "5",
       "type": "damage",
       "inspectionId": "67890",
-      "status": "closed",
+      "status": "open",
       "location": "Kitchen",
+      "typeOfDamage": "moedwillig",
       "description": "some lengthy description",
       "executedBy": "huurder",
       "action": "laten keuren",
@@ -96,7 +98,7 @@
       "location": "Garage",
       "description": "some lengthy description",
       "typeOfMaintenance": "schilderwerk",
-      "immediateActionRequired": false,
+      "immediateActionRequired": "no",
       "costs": "500-1.500"
     },
     {
@@ -107,7 +109,7 @@
       "location": "Garage",
       "description": "some lengthy description",
       "typeOfMaintenance": "schilderwerk",
-      "immediateActionRequired": false,
+      "immediateActionRequired": "no",
       "costs": "500-1.500"
     },
     {
@@ -119,8 +121,8 @@
       "description": "some lengthy description",
       "typeOfInstallation": "koeling",
       "testProcedure": "https://test.nl",
-      "approved": true,
-      "reportedMalfuctions": "A/C broken"
+      "approved": "yes",
+      "reportedMalfunctions": "A/C broken"
     },
     {
       "id": "3",
@@ -131,8 +133,8 @@
       "description": "some lengthy description",
       "typeOfInstallation": "koeling",
       "testProcedure": "https://test.nl",
-      "approved": true,
-      "reportedMalfuctions": "A/C broken"
+      "approved": "yes",
+      "reportedMalfunctions": "A/C broken"
     },
     {
       "id": "4",
@@ -143,8 +145,8 @@
       "description": "some lengthy description",
       "typeOfDamage": "moedwillig",
       "damageDate": "2024-09-01T00:00:00+00.00",
-      "newDamage": false,
-      "immediateActionRequired": true
+      "newDamage": "no",
+      "immediateActionRequired": "yes"
     },
     {
       "id": "4",
@@ -155,8 +157,8 @@
       "description": "some lengthy description",
       "typeOfDamage": "moedwillig",
       "damageDate": "2024-09-01T00:00:00+00.00",
-      "newDamage": false,
-      "immediateActionRequired": true
+      "newDamage": "no",
+      "immediateActionRequired": "yes"
     },
     {
       "id": "5",
